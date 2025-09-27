@@ -35,7 +35,7 @@ public class HexXspectrumCC implements ItemComponentInitializer {
 
         registry.register(SpectrumItems.MOONSTONE_POWDER, MEDIA_HOLDER, s -> new CCMediaHolder.Static(
                 () -> MediaConstants.CRYSTAL_UNIT / 5, 2500, s ));
-        registry.register(SpectrumItems.CITRINE_SHARD, MEDIA_HOLDER, s -> new CCMediaHolder.Static(
+        registry.register(SpectrumItems.MOONSTONE_SHARD, MEDIA_HOLDER, s -> new CCMediaHolder.Static(
                 () -> MediaConstants.CRYSTAL_UNIT, ADMediaHolder.CHARGED_AMETHYST_PRIORITY, s ));
 
 
