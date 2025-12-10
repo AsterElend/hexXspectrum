@@ -3,9 +3,9 @@
 	"id": "hexxspectrum",
 	"version": "${version}",
 	"name": "HexXSpectrum",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Makes the spectrum gemstones and powders usable as hexcasting media, among other things",
 	"authors": [
-		"Me!"
+		"Aster"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",

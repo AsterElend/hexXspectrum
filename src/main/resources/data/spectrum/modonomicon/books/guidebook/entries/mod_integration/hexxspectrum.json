@@ -1,0 +1,35 @@
+{
+  "name": "book.spectrum.guidebook.hexxspectrum.name",
+  "icon": {
+    "item": "hexxspectrum:anchor"
+  },
+  "category": "spectrum:mod_integration",
+  "hide_while_locked": false,
+  "background_u_index": 0,
+  "background_v_index": 4,
+  "x": -1,
+  "y": 1,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.spectrum.guidebook.hexxspectrum.name",
+      "text": "book.spectrum.guidebook.hexxspectrum.about.text"
+    },
+    {
+      "type": "spectrum:fusion_shrine_crafting",
+      "text": "book.spectrum.guidebook.hexxspectrum.anchor.text",
+      "title": "container.spectrum.rei.fusion_recipe",
+      "recipe_id": "spectrum:fusion_shrine/anchor"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "title": "hexxspectrum.media",
+      "item":{ "item":"spectrum:topaz_shard"},
+      "text": "book.spectrum.guidebook.hexxspectrum.media.text1"
+    },
+    {
+      "type": "modonomicon:text",
+      "text": "book.spectrum.guidebook.hexxspectrum.media.text2"
+    }
+  ]
+}

@@ -10,10 +10,10 @@ import dev.onyxstudios.cca.api.v3.item.ItemComponentInitializer;
 import static at.petrak.hexcasting.fabric.cc.HexCardinalComponents.MEDIA_HOLDER;
 
 public class HexXspectrumCC implements ItemComponentInitializer {
-    @Override
+
     public void registerItemComponentFactories(ItemComponentFactoryRegistry registry) {
 
-        registry.register(i -> i instanceof MediaHolderItem, MEDIA_HOLDER, CCMediaHolder.ItemBased::new);
+
 
 
         registry.register(SpectrumItems.CITRINE_POWDER, MEDIA_HOLDER, s -> new CCMediaHolder.Static(
