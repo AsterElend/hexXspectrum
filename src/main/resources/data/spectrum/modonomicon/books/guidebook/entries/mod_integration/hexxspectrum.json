@@ -1,8 +1,6 @@
 {
   "name": "book.spectrum.guidebook.hexxspectrum.name",
-  "icon": {
-    "item": "hexxspectrum:anchor"
-  },
+  "icon": "hexxspectrum:icon.png",
   "category": "spectrum:mod_integration",
   "hide_while_locked": false,
   "background_u_index": 0,
@@ -14,12 +12,6 @@
       "type": "modonomicon:text",
       "title": "book.spectrum.guidebook.hexxspectrum.name",
       "text": "book.spectrum.guidebook.hexxspectrum.about.text"
-    },
-    {
-      "type": "spectrum:fusion_shrine_crafting",
-      "text": "book.spectrum.guidebook.hexxspectrum.anchor.text",
-      "title": "container.spectrum.rei.fusion_recipe",
-      "recipe_id": "spectrum:fusion_shrine/anchor"
     },
     {
       "type": "modonomicon:spotlight",

@@ -1,9 +1,17 @@
 {
   "item.hexxspectrum.anchor": "Reality Anchor",
   "book.spectrum.guidebook.hexxspectrum.name": "Hex X Spectrum",
+  "book.spectrum.guidebook.hexxspectrum.trinketsname": "Integrated Trinkets",
   "book.spectrum.guidebook.hexxspectrum.about.text": "It seems that media and colour are more interlinked than I first assumed...",
-  "book.spectrum.guidebook.hexxspectrum.anchor.text": "That barrier should not have been broken put it back put it back put it back          An anklet Invested with permanence. Creates an artificial wall between my mind and my pockets.",
+  "book.spectrum.guidebook.hexxspectrum.anchor.text": "An anklet Invested with permanence. Creates an artificial wall between my mind and my pockets.",
   "book.spectrum.guidebook.hexxspectrum.media.text1": "All gemstone shards and powder can now be used as media! A powder is worth one-fifth its corresponding shard.",
   "book.spectrum.guidebook.hexxspectrum.media.text2": "The three base shards are all equal. An Onyx shard is worth a shard of quenched allay, and a Moonstone shard is worth a charged amethyst.",
-  "hexxspectrum.media": "Media"
+  "hexxspectrum.media": "Media",
+  "hexxspectrum.mishap.no_bangle": "Tried to cast Sympathetic Extraction without a bangle!",
+  "hexcasting.action.hexxspectrum:bangle_break": "Sympathetic Extraction",
+  "book.spectrum.guidebook.hexxspectrinkets.name": "Integrated Trinkets",
+  "book.spectrum.guidebook.hexxspectrinkets.text": "A series of trinkets I have invented to accomplish various wizidrical tasks. ",
+  "book.spectrum.guidebook.hexxspectrinkets.bangle.text": "A trinket that appears to nature as a pickaxe. With a particular spell, one can route media through it, breaking a block with its enchantments. See the hex book for the pattern.",
+  "hexxspectrum.entry.spectrum": "Spectrum Interop",
+  "hexxspectrum.page.bangle": "Route media through the worn Sympathetic Bangle, breaking a block with all enchantments on the bangle. Costs 1 dust per total enchantment level, or negligible if the bangle has Curse of the Void. "
 }

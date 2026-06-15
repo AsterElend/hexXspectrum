@@ -1,0 +1,34 @@
+{"name": "book.spectrum.guidebook.hexxspectrum.trinketsname",
+  "icon": {"item":  "hexxspectrum:bangle"},
+  "category": "spectrum:mod_integration",
+  "hide_while_locked": false,
+  "background_u_index": 0,
+  "background_v_index": 4,
+  "x": -1,
+  "parents": [
+    {
+      "entry": "spectrum:mod_integration/hexxspectrum"
+    }
+  ],
+  "y": 0,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.spectrum.guidebook.hexxspectrinkets.name",
+      "text": "book.spectrum.guidebook.hexxspectrinkets.text"
+    },
+    {
+      "type": "spectrum:fusion_shrine_crafting",
+      "text": "book.spectrum.guidebook.hexxspectrum.anchor.text",
+      "title": "container.spectrum.rei.fusion_recipe",
+      "recipe_id": "spectrum:fusion_shrine/anchor"
+    },
+    {
+      "type": "spectrum:fusion_shrine_crafting",
+      "text": "book.spectrum.guidebook.hexxspectrinkets.bangle.text",
+      "title": "container.spectrum.rei.fusion_recipe",
+      "recipe_id": "spectrum:fusion_shrine/bangle"
+    }
+  ]
+
+}

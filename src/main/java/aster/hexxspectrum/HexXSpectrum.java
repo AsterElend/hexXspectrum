@@ -1,12 +1,19 @@
 package aster.hexxspectrum;
 
+import aster.hexxspectrum.registry.SpecItems;
+import aster.hexxspectrum.registry.casting.SpecPatterns;
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class HexXSpectrum implements ModInitializer {
     public static final String MOD_ID = "hexxspectrum";
+
+    public static Identifier id(String name){
+        return new Identifier(MOD_ID, name);
+    }
 
     // This logger is used to write text to the console and the log file.
     // It is considered best practice to use your mod id as the logger's name.
@@ -18,7 +25,8 @@ public class HexXSpectrum implements ModInitializer {
         // This code runs as soon as Minecraft is in a mod-load-ready state.
         // However, some things (like resources) may still be uninitialized.
         // Proceed with mild caution.
-        Items.register();
+        SpecItems.register();
+        SpecPatterns.init();
 
         LOGGER.info("Hello Fabric world!");
     }

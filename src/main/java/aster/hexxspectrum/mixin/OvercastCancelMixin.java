@@ -1,6 +1,6 @@
 package aster.hexxspectrum.mixin;
 
-import aster.hexxspectrum.Items;
+import aster.hexxspectrum.registry.SpecItems;
 import at.petrak.hexcasting.api.casting.eval.env.PlayerBasedCastEnv;
 
 
@@ -30,7 +30,7 @@ public abstract class OvercastCancelMixin {
     @Unique
     protected boolean hasLei(LivingEntity player) {
         return TrinketsApi.getTrinketComponent(player).map(component ->
-                component.isEquipped(Items.ANCHOR)).orElse(false);
+                component.isEquipped(SpecItems.ANCHOR)).orElse(false);
 
     }
 
