@@ -1,0 +1,34 @@
+{
+  "type": "spectrum:fusion_shrine",
+  "time": 600,
+  "experience": 2.0,
+  "fluid": {
+    "fluid": "spectrum:liquid_crystal"
+  },
+  "ingredients": [
+    {
+      "tag": "minecraft:wool",
+      "count": 4
+    },
+    {
+      "item": "minecraft:diamond",
+      "count": 2
+    },
+    {
+      "item": "hexcasting:charged_amethyst",
+      "count": "1"
+    },
+    {
+      "item": "spectrum:purple_pigment",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "hexxspectrum:jewel_socks"
+  },
+  "required_advancement": "spectrum:unlocks/trinkets/fanciful_stone_ring",
+  "world_conditions": [],
+  "start_crafting_effect": "nothing",
+  "during_crafting_effects": [],
+  "finish_crafting_effect": "single_visual_explosion_on_shrine"
+}

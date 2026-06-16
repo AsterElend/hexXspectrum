@@ -21,7 +21,6 @@
 				"adapter": "kotlin"
 			}
 		],
-		"fabric-datagen": ["aster.hexxspectrum.datagen.XXDatagenerator"],
 		"cardinal-components": [
 			"aster.hexxspectrum.HexXspectrumCC"
 		]

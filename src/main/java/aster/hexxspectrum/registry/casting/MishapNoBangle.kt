@@ -9,7 +9,7 @@ import net.minecraft.text.Text
 import net.minecraft.util.DyeColor
 
 class MishapNoBangle : Mishap() {
-    override fun accentColor(env: CastingEnvironment, errorCtx: Context): FrozenPigment = dyeColor(DyeColor.YELLOW)
+    override fun accentColor(ctx: CastingEnvironment, errorCtx: Context): FrozenPigment = dyeColor(DyeColor.YELLOW)
     override fun errorMessage(
         ctx: CastingEnvironment,
         errorCtx: Context

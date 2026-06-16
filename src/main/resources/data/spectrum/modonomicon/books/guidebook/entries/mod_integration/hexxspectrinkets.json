@@ -28,6 +28,12 @@
       "text": "book.spectrum.guidebook.hexxspectrinkets.bangle.text",
       "title": "container.spectrum.rei.fusion_recipe",
       "recipe_id": "spectrum:fusion_shrine/bangle"
+    },
+    {
+      "type": "spectrum:fusion_shrine_crafting",
+      "text": "hexxspectrum.worldbook.socks.text",
+      "title": "container.spectrum.rei.fusion_recipe",
+      "recipe_id": "spectrum:fusion_shrine/socks"
     }
   ]
 

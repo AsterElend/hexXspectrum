@@ -33,7 +33,7 @@ import java.util.function.Function
             throw MishapNoBangle()
         }
         var bangle = getBangle(env.castingEntity!!)
-        if (bangle == null || bangle == ItemStack.EMPTY){
+        if (bangle == ItemStack.EMPTY){
             throw MishapNoBangle()
         }
 
@@ -47,13 +47,14 @@ import java.util.function.Function
         val enchants: Map<Enchantment?, Int?> = EnchantmentHelper.get(bangle) ?: return 0f
         var cost = 0f;
         for (enchantment in enchants) {
-            if (enchantment.value != null){
-                cost += (enchantment.value!! * MediaConstants.DUST_UNIT)
-            }
             if (enchantment is VoidingEnchantment){
                 cost = (MediaConstants.DUST_UNIT / 100).toFloat()
                 break
             }
+            if (enchantment.value != null){
+                cost += (enchantment.value!! * MediaConstants.DUST_UNIT)
+            }
+
         }
         return cost
     }

@@ -12,6 +12,9 @@
   "book.spectrum.guidebook.hexxspectrinkets.name": "Integrated Trinkets",
   "book.spectrum.guidebook.hexxspectrinkets.text": "A series of trinkets I have invented to accomplish various wizidrical tasks. ",
   "book.spectrum.guidebook.hexxspectrinkets.bangle.text": "A trinket that appears to nature as a pickaxe. With a particular spell, one can route media through it, breaking a block with its enchantments. See the hex book for the pattern.",
-  "hexxspectrum.entry.spectrum": "Spectrum Interop",
-  "hexxspectrum.page.bangle": "Route media through the worn Sympathetic Bangle, breaking a block with all enchantments on the bangle. Costs 1 dust per total enchantment level, or negligible if the bangle has Curse of the Void. "
+  "hexxspectrum.entry.spectrum": "Spectral Patterns",
+  "hexxspectrum.page.bangle": "Route media through the worn Sympathetic Bangle, breaking a block with all enchantments on the bangle. Costs 1 dust per total enchantment level, or negligible if the bangle has Curse of the Void. ",
+  "item.hexxspectrum.bangle": "Sympathetic Bangle",
+  "item.hexxspectrum.jewel_socks": "Jeweler's Socks",
+  "hexxspectrum.worldbook.socks.text": "With the fusion shrine, I was able to disassemble diamond and amethyst into fibres. These socks route the ambient media from my feet to my hands, allowing twice as many rings to function. "
 }

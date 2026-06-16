@@ -7,6 +7,9 @@ import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import vazkii.patchouli.api.PatchouliAPI;
+
+import static at.petrak.hexcasting.interop.HexInterop.PATCHOULI_ANY_INTEROP_FLAG;
 
 public class HexXSpectrum implements ModInitializer {
     public static final String MOD_ID = "hexxspectrum";
@@ -27,6 +30,7 @@ public class HexXSpectrum implements ModInitializer {
         // Proceed with mild caution.
         SpecItems.register();
         SpecPatterns.init();
+        PatchouliAPI.get().setConfigFlag(PATCHOULI_ANY_INTEROP_FLAG, true);
 
         LOGGER.info("Hello Fabric world!");
     }
